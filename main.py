@@ -38,7 +38,7 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Updates", url="https://t.me/LazyDeveloper"),
+            [InlineKeyboardButton("Updates", url="https://t.me/indianmovies288"),
              InlineKeyboardButton("Support Group", url="https://t.me/LazyPrincessSupport"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
@@ -77,7 +77,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Updates Channel", url="https://t.me/LazyDeveloper")
+						InlineKeyboardButton("Updates Channel", url="https://t.me/indianmovies288")
 					],
 					[
 						InlineKeyboardButton("Connect Admin", url="https://t.me/LazyDeveloper"),
@@ -94,7 +94,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[   InlineKeyboardButton("Help", callback_data="Help_msg"),
-						InlineKeyboardButton("Updates Channel", url="https://t.me/LazyDeveloper")
+						InlineKeyboardButton("Updates Channel", url="https://t.me/indianmovies288")
 					], 
                     [
 						InlineKeyboardButton("Connect Admin", url="https://t.me/LazyDeveloper"),
@@ -115,7 +115,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support Channel", url="https://t.me/LazyPrincessSupport"),
+						InlineKeyboardButton("Support Channel", url="https://t.me/Newmoviesandwebseriesdiscussion2"),
 					]
 				]
 			),
